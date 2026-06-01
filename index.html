@@ -59,5 +59,35 @@
         </div>
     </section>
     </main>
+    <section class="sistema-de-busca">
+        <h2 class="titulo">Sistema de busca</h2>
+        <div class="periodo">
+        <label for="periodo">Período</label>
+        <select id="periodo" name="periodo">
+            <option selected value="todos">Todos</option>
+            <option value="cretaceo">Cretáceo</option>
+            <option value="triassico">Triássico</option>
+            <option value="cretaceo-superior">Cretáceo Superior</option>
+            <option value="jurassico-superior">Jurássico Superior</option>
+        </select>
+        </div>
+        <div class="tipo">
+        <label for="tipo">Tipo</label>
+        <select id="tipo" name="tipo">
+            <option selected value="todos">Todos</option>
+            <option value="aquatico">Aquático</option>
+            <option value="terrestre">Terrestre</option>
+            <option value="aereo">Aéreo</option>
+        </select>
+        </div>
+        <div class="nome">
+        <label for="nome">Buscar</label>
+        <input id="nome" name="nome" class="input" type="text" placeholder="ex. Tiranossauro">
+        </div>
+    <button id="btn">Procurar</button>
+        <div class="resultados"></div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
