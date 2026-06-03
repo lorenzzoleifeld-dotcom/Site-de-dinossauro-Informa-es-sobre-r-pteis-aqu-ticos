@@ -26,7 +26,7 @@ p {
     font-family: "Share tech Mono", sans-serif;
 }
 .topo {
-    margin: 0.4rem;
+    margin: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
