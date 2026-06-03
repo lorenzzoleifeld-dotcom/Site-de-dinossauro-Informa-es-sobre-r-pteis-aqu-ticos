@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    
+}
 body {
    background-image: url(https://static.vecteezy.com/system/resources/previews/049/193/646/non_2x/blue-abstract-topographic-map-background-blue-topographic-terrain-lines-on-a-dark-blue-background-vector.jpg);
 }
