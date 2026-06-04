@@ -48,7 +48,7 @@ botao.addEventListener("click", () => {
    
     if(dinossauroEncontrado.length > 0) {
     const dinossaurosPassados = dinossauroEncontrado.map(dino => `${dino.nome} - ${dino.tipo} - ${dino.periodo} `)
-    resultado.textContent = dinossaurosPassados.join(", ")
+    resultado.textContent = dinossaurosPassados.join(" , ")
     } else {
         resultado.textContent = "Dinossauro não encontrado."
     }
