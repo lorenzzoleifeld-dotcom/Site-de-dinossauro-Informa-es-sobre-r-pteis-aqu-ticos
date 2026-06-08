@@ -135,7 +135,17 @@ a:hover {
     width: 13rem;
     height: 13rem;
     background: #123c4a;
+    transition: 0.4s ease;
 }
+.card:hover .nome {
+    transition: 0.4s ease;
+    color: #4ade80;
+}
+.card:hover {
+    box-shadow: 0 0 4px #4ade80;
+    transform: scale(1.05) translateY(-4px);
+}
+
 .card img {
     border-radius: 0px 0px 15px 0px;
     width: 12rem;
@@ -174,6 +184,7 @@ a:hover {
     color: #Ffffff;
 }
 #btn {
+    margin-top: auto;
     margin-bottom: 2rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -183,53 +194,67 @@ a:hover {
     color: #4ade80;
 }
 .card-dino {
-   
+    border-bottom: 15px solid #4ade80;
+    position: relative;
     margin-bottom: 1.6rem;
     display: flex;
     align-items: center;
     gap: 20px;
     width: 40rem;
-    padding: 20px;
     background: #123c4a;
     border-radius: 0 0 20px 0;
     height: 20rem;
+    transition: 0.3s;
+}
+.card-dino:hover {
+    transform: scale(1.05) translateY(-4px);
 }
 .card-dino img {
+    padding: 0;
+    margin: 0;
+    display: block;
     border: 2px solid #4ade80;
     width: 20rem;
     height: 14rem;
     border-radius: 0px 0px 20px 0px;
 }
-#plesiossauro h3 {
-    margin-top: 0;
-}
+
+
 .conteudo {
+    padding: 20px;
+    padding-left: 1rem;
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 #plesiossauro {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    height: 20rem;
-    width: 40rem;
+    align-items: flex-start;
     background: #123c4a;
 }
 #ictiossauro {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 #mosassauro {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+hr {
+    position: absolute;
+    top: 25%;
+    right: 4.5rem;
+    width: 10rem;
+
+   border: 1px solid #4ade80;
 }
 
 
