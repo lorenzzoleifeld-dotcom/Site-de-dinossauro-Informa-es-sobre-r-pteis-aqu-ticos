@@ -183,18 +183,21 @@ a:hover {
     color: #4ade80;
 }
 .card-dino {
+   
+    margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
     gap: 20px;
     width: 40rem;
     padding: 20px;
     background: #123c4a;
-    border-radius: 20px;
+    border-radius: 0 0 20px 0;
     height: 20rem;
 }
 .card-dino img {
     border: 2px solid #4ade80;
     width: 20rem;
+    height: 14rem;
     border-radius: 0px 0px 20px 0px;
 }
 #plesiossauro h3 {
@@ -216,3 +219,17 @@ a:hover {
     width: 40rem;
     background: #123c4a;
 }
+#ictiossauro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#mosassauro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
