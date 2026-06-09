@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 html {
     scroll-behavior: smooth;
 }
 body {
+    overflow-x: hidden;
    background-image: url(https://static.vecteezy.com/system/resources/previews/049/193/646/non_2x/blue-abstract-topographic-map-background-blue-topographic-terrain-lines-on-a-dark-blue-background-vector.jpg);
 }
 a {
@@ -64,7 +68,6 @@ p {
 }
 img {
     border-radius: 0px 5px 0px 15px;
-    width: 30rem;
     transition: 0.4s;
 }
 img:hover {
@@ -194,40 +197,51 @@ a:hover {
     color: #4ade80;
 }
 .card-dino {
+    background: rgba(0, 255, 0, 0.2);
+    box-sizing: border-box;
     border-bottom: 15px solid #4ade80;
     position: relative;
     margin-bottom: 1.6rem;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: stretch;
     gap: 20px;
-    width: 40rem;
+    width: 90%;
+    max-width: 40rem;
     background: #123c4a;
     border-radius: 0 0 20px 0;
-    height: 20rem;
+    height: auto;
     transition: 0.3s;
+    margin: 0 auto;
 }
 .card-dino:hover {
     transform: scale(1.05) translateY(-4px);
 }
 .card-dino img {
+    flex-shrink: 0;
     padding: 0;
     margin: 0;
     display: block;
     border: 2px solid #4ade80;
-    width: 20rem;
-    height: 14rem;
+    width: 20rem !important;
+    max-width: 100%;
+    height: auto !important;
     border-radius: 0px 0px 20px 0px;
 }
 
 
 .conteudo {
+    gap: 10px;
+    width: 100%;
+    min-width: 0;
+    overflow-wrap: break-word;
     padding: 20px;
     padding-left: 1rem;
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    
 }
 #plesiossauro {
     display: flex;
@@ -248,13 +262,32 @@ a:hover {
     justify-content: center;
     align-items: flex-start;
 }
-hr {
-    position: absolute;
-    top: 25%;
-    right: 4.5rem;
-    width: 10rem;
 
-   border: 1px solid #4ade80;
+@media (max-width: 620px) {
+    .card-dino {
+        display: flex !important;
+        flex-direction: column  !important;
+        align-items: center;
+    }
+    .card-dino img {
+        width: 100%;
+        max-width: 18rem;
+        height: auto;
+        display: block;
+
+    }
+    .conteudo {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    h3 {
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
-
-
+}
+.aquaticos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
