@@ -136,9 +136,12 @@ a:hover {
 .card {
     border-radius: 15px 0px 15px 15px;
     width: 13rem;
-    height: 13rem;
+    height: auto;
     background: #123c4a;
     transition: 0.4s ease;
+}
+.card h3 {
+    padding: 1rem;
 }
 .card:hover .nome {
     transition: 0.4s ease;
