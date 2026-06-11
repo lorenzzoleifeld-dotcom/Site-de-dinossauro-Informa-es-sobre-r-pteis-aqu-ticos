@@ -136,7 +136,7 @@ a:hover {
 .card {
     border-radius: 15px 0px 15px 15px;
     width: 13rem;
-    height: auto;
+    height: 13rem;
     background: #123c4a;
     transition: 0.4s ease;
 }
@@ -154,7 +154,9 @@ a:hover {
 
 .card img {
     border-radius: 0px 0px 15px 0px;
-    width: 12rem;
+    width: 90%;
+    height: 8rem;
+    object-fit: cover;
 }
 .card h3 {
     margin-top: 1.4rem;
@@ -174,7 +176,7 @@ a:hover {
 .geral {
     margin-bottom: 1.5rem;
     margin-top: 1rem;
-    gap: 20px;
+    gap: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
