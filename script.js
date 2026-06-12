@@ -52,34 +52,12 @@ const dinossauros = [
 const cards = document.querySelector(".cards")
 const input = document.querySelector(".input")
 const botao = document.querySelector("#btn")
-const resultado = document.querySelector(".resultados")
 const selectPeriodo = document.getElementById("periodo")
 const selectTipo = document.getElementById("tipo")
-botao.addEventListener("click", () => {
-    const periodoSelecionado = selectPeriodo.value
-    const tipoSelecionado = selectTipo.value
-    const busca = input.value.trim().toLowerCase()
-    const dinossauroEncontrado = dinossauros.filter(dino => dino.nome.toLowerCase().includes(busca) && (
-        periodoSelecionado === "todos" ||
-        dino.periodo === periodoSelecionado
-    )
-    &&
-    (
-        tipoSelecionado === "todos" ||
-        dino.tipo === tipoSelecionado
-    )
-) 
-   
-    if(dinossauroEncontrado.length > 0) {
-    const dinossaurosPassados = dinossauroEncontrado.map(dino => `${dino.nome} - ${dino.tipo} - ${dino.periodo} `)
-    resultado.textContent = dinossaurosPassados.join(" , ")
-    } else {
-        resultado.textContent = "Dinossauro não encontrado."
-    }
-    
-
-})
+function renderizarCards(dinossauros) {
+    cards.innerHTML = ""
 dinossauros.forEach((dino) => {
+
     const card = document.createElement("div")
     const nome = document.createElement("h3")
     const imagem = document.createElement("img")
@@ -93,4 +71,35 @@ dinossauros.forEach((dino) => {
     card.appendChild(imagem)
     card.appendChild(nome)
     cards.appendChild(card)
+})}
+renderizarCards(dinossauros)
+function pesquisar() {
+    const periodoSelecionado = selectPeriodo.value
+    const tipoSelecionado = selectTipo.value
+    const busca = input.value.trim().toLowerCase()
+    const dinossauroEncontrado = dinossauros.filter(dino => dino.nome.toLowerCase().includes(busca) && (
+        periodoSelecionado === "todos" ||
+        dino.periodo === periodoSelecionado
+    )
+    &&
+    (
+        tipoSelecionado === "todos" ||
+        dino.tipo === tipoSelecionado
+    )
+) 
+    console.log("Busca:", busca)
+    console.log("Resultado:", dinossauroEncontrado.length)
+    if(dinossauroEncontrado.length > 0) {
+    renderizarCards(dinossauroEncontrado)
+    } 
+    
+}
+input.addEventListener("keydown", (event) => {
+   if(event.key === "Enter") {
+    pesquisar()
+   }
+})
+
+botao.addEventListener("click", () => {
+    pesquisar()
 })
