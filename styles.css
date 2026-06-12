@@ -317,7 +317,8 @@ a:hover {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 220px));
+    justify-content: center;
 }
 .resultados {
     width: 100%;
