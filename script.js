@@ -101,10 +101,8 @@ function pesquisar() {
     }
     
 }
-input.addEventListener("keydown", (event) => {
-   if(event.key === "Enter") {
+input.addEventListener("input", () => {
     pesquisar()
-   }
 })
 
 
