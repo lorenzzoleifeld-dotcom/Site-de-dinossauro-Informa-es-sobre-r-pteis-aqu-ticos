@@ -49,6 +49,7 @@ const dinossauros = [
     imagem: "imgs/plesiossauro2.png"
     }
 ]
+const mensagem = document.querySelector(".sem-resultados")
 const cards = document.querySelector(".cards")
 const input = document.querySelector(".input")
 const botao = document.querySelector("#btn")
@@ -90,8 +91,14 @@ function pesquisar() {
     console.log("Busca:", busca)
     console.log("Resultado:", dinossauroEncontrado.length)
     if(dinossauroEncontrado.length > 0) {
+    mensagem.style.display = "none"
+    cards.style.display = "grid"
     renderizarCards(dinossauroEncontrado)
-    } 
+    } else {
+        cards.style.display = "none"
+        mensagem.style.display = "block"
+        
+    }
     
 }
 input.addEventListener("keydown", (event) => {
@@ -99,6 +106,8 @@ input.addEventListener("keydown", (event) => {
     pesquisar()
    }
 })
+
+
 
 botao.addEventListener("click", () => {
     pesquisar()
