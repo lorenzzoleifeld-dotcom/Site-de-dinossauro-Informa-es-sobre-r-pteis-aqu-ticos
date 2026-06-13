@@ -312,6 +312,7 @@ a:hover {
     gap: 40px;
 }
 .cards {
+    display: block;
     gap: 30px;
     width: 100%;
     max-width: 1200px;
@@ -322,4 +323,18 @@ a:hover {
 }
 .resultados {
     width: 100%;
+}
+.sem-resultados {
+    display: none;
+    margin-top: 0.8rem;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    height: 20rem ;
+    background: #123c4a;
+}
+.sem-resultados p {
+    margin-top: 7rem;
 }
