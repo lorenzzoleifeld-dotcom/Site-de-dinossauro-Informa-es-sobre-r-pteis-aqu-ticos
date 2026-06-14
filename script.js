@@ -3,8 +3,8 @@ const dinossauros = [
     nome: "Tiranossauro Rex",
     tipo: "terrestre",
     periodo: "cretaceo",
-    imagem: "imgs/rex.png"
-
+    imagem: "imgs/rex.png",
+    pagina: "dino.html"
     },
     {
     nome: "Mosassauro",
@@ -60,6 +60,9 @@ function renderizarCards(dinossauros) {
 dinossauros.forEach((dino) => {
 
     const card = document.createElement("div")
+    card.addEventListener("click", () => {
+        window.location.href = dino.pagina;
+    })
     const nome = document.createElement("h3")
     const imagem = document.createElement("img")
     const divImagem = document.createElement("div")
