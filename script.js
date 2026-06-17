@@ -1,5 +1,6 @@
 const dinossauros = [
     {
+    id: "trex",
     nome: "Tiranossauro Rex",
     tipo: "terrestre",
     periodo: "cretaceo",
@@ -14,6 +15,7 @@ const dinossauros = [
     pagina: "dino.html"
     },
     {
+    id: "mosassauro",
     nome: "Mosassauro",
     tipo: "aquatico",
     periodo: "cretaceo-superior",
@@ -27,6 +29,7 @@ const dinossauros = [
     imagem: "imgs/mosassauro.png"
     },
     {
+    id: "ictiossauro",
     nome: "Ictiossauro",
     tipo: "aquatico",
     periodo: "triassico",
@@ -40,6 +43,7 @@ const dinossauros = [
     imagem: "imgs/ictiossauro.png"
     },
     {
+    id: "velociraptor",
     nome: "Velociraptor",
     tipo: "terrestre",
     periodo: "cretaceo-superior",
@@ -53,6 +57,7 @@ const dinossauros = [
     imagem: "imgs/velociraptor.png"
     },
     {
+    id: "pterodactilo",
     nome: "Pterodactilo",
     tipo: "aereo",
     periodo: "jurassico-superior",
@@ -66,6 +71,7 @@ const dinossauros = [
     imagem: "imgs/pterodactilo.png"
     },
     {
+    id: "gigantossauro",
     nome: "Gigantossauro",
     tipo: "terrestre",
     periodo: "cretaceo-superior",
@@ -79,6 +85,7 @@ const dinossauros = [
     imagem: "imgs/gigantossauro.png"
     },
     {
+    id: "anquilossauro",
     nome: "Anquilossauro",
     tipo: "terrestre",
     periodo: "cretaceo",
@@ -92,6 +99,7 @@ const dinossauros = [
     imagem: "imgs/anquilossauro.png"
     },
     {
+    id: "plesiossauro",
     nome: "Plesiossauro",
     tipo: "aquatico",
     periodo: "cretaceo",
@@ -117,7 +125,7 @@ dinossauros.forEach((dino) => {
 
     const card = document.createElement("div")
     card.addEventListener("click", () => {
-        window.location.href = dino.pagina;
+        window.location.href = `dino.html?id=${dino.id}`
     })
     const nome = document.createElement("h3")
     const imagem = document.createElement("img")
