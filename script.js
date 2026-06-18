@@ -1,3 +1,5 @@
+const parametros = new URLSearchParams(window.location.search)
+const id = parametros.get("id")
 const dinossauros = [
     {
     id: "trex",
@@ -10,7 +12,7 @@ const dinossauros = [
     familia: "Tyrannosauridae",
     peso: "9T",
     dieta: "presas vivas",
-    genero: "Tiranossauro",
+    genero: "Tyrannosaurus",
     imagem: "imgs/rex.png",
     pagina: "dino.html"
     },
