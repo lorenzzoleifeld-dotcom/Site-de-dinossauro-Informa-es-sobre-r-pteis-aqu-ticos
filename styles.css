@@ -474,3 +474,8 @@ label {
 .resposta {
     text-transform: capitalize;
 }
+#descoberta-dino {
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-family: 'Share tech Mono', sans-serif;
+}
