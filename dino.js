@@ -48,7 +48,10 @@ const dinossauros = [
     peso: "100kg",
     altura: "0,8 centímetros",
     comprimento: "3 metros",
-    imagem: "imgs/ictiossauro.png"
+    imagem: "imgs/ictiossauro.png",
+    descriçao: "Foi um réptil marinho pré-histórico cujo nome significa 'lagarto peixe', surgiram no início do período Triássico e foram extintos no período Cretáceo Superior, a cerca de 250 a 90 milhões de anos atrás, seu corpo tinha formato de fuso, que reduzia drasticamente o atrito com a água, tinham olhos gigantescos, e uma nadadeira dorsal carnuda (sem ossos), possuia um focinho alongado e estreito, comparado com outros répteis daquele tempo.",
+    descoberta: "Foram descobertos no início do século XIX (19), quando a humanidade sequer tinha criado a palavra 'dinossauro', foram descobertos oficialmente no ano de 1811 a 1812, nos penhascos de Lyme Regis, no país da Inglaterra, foram descobertos pelos paleontólogos Joseph Anning (de 15 anos) e Marry Anning (de apenas 12 anos), o termo 'Ichthyosaurus' (lagarto-peixe) foi criado somente 11 anos depois, no ano de 1821 pelo geólogo Charles Konig.",
+    paleoecologia: "Revela como esses répteis alcançavam um sucesso evolutivo estrondoso, dominando os oceanos do mundo por mais de 150 milhões de anos, eles ocupavam o nicho ecológico que hoje pertence aos tubarões e golfinhos, funcionando como predadores de alta velocidade em mar aberto, a maioria deles tinham focinhos longos e finos, e com dentes pequenos, eles se alimentavam de lulas primitivas e amonites, tinha olhos gigantescos, que serviam para o proteger da pressão esmagadora do oceano."
     },
     {
     id: "velociraptor",
@@ -96,7 +99,10 @@ const dinossauros = [
     peso: "8T",
     altura: "4 metros",
     comprimento: "13 metros",
-    imagem: "imgs/gigantossauro.png"
+    imagem: "imgs/gigantossauro.png",
+    descriçao: "Foi um dos maiores dinossauros carnívoros terrestres que já existiram na hístoria da Terra, viveu no período Cretáceo Superior na região que atualmente corresponde à Patagônia, na Argentina, seu nome significa 'lagarto gigante do sul', e superava o Tiranossauro Rex em comprimento, embora o T-rex fosse ligeramente mais robusto e pesado, podia alcançar incriveis 13 metros de comprimento e 4 metros de altura.",
+    descoberta: "Foi descoberto no dia de 25 de julho do ano de 1993, na província de Neuquén, em Patagônia, na Argentina, por Rúben Dario Carollini, e recebeu o nome de Gigantossauro caronilli, em homenagem ao descobridor dele, o fóssil estava 70% preservado, incluindo ossos como fêmur, pelve, tíbia entre outros ossos. Hoje, os fósseis estão localizados no Museu Municipal Ernesto Bachmann, em Villa El Chocón, na Argentina.",
+    paleoecologia: "Reconstrói o nicho ecológico, o comportamento e o ambiente onde vivia Gigantossauro, ele ocupava de forma absoluta a cadeia Alimentar, sendo rival de Tiranossauro rex, que era mais robusta e pesado, eles caçavam em grupos familiares ou matilhas temporárias para cercar, cansar e abater titanossauros jovens, idosos ou doentes, pesava cerca de 8 toneladas, e tinha endotermia (sangue quente)."
     },
     {
     id: "anquilossauro",
@@ -127,7 +133,10 @@ const dinossauros = [
     peso: "700kg",
     altura: "1 metro",
     comprimento: "5 metros",
-    imagem: "imgs/plesiossauro2.png"
+    imagem: "imgs/plesiossauro2.png",
+    descriçao: "São répteis marinhos antigos que viviam nos oceanos, possuia membros poderosos em forma de remo que possibilitam que nade na água em alta velocidade, tinha um pescoço alongado e flexível para pegar rapidamente outros peixes, ele podia medir até 3,5 metros de comprimento e tinham parentescos que viviam somente em terra firme",
+    descoberta: "Foram descritas em 1821 por William Conybearee e Henry Tomas De La Beche, mas somente dois anos depois, Mary Anning descobriu um fóssil quase completo do plesiossauro, revelendo sua verdadeira aparência, inclusive com Ictiossauro, Plesiossauro e Pterosdauro, seu nome significa 'quase réptil', porque originalmente, não é considerado dinossauro",
+    paleoecologia: "Estuda como eles interagiam com o ecossistema dos oceanos do Mesozoico, há cerca de 203 a 66 milhões de anos atrás, diferente de como as pessoas pensam, ele não era um dinossauro, mas sim um réptil marinho altamente especializados que dividiam os mares com Ictiossauros e Mosassauros, tinham pescoços extremamente longos e cabeças proporcionalmente pequenas."
     }
 ]
 
