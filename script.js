@@ -115,6 +115,17 @@ const dinossauros = [
     imagem: "imgs/plesiossauro2.png"
     }
 ]
+const card = document.querySelectorAll(".card-dino")
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add("show")
+        }
+    })
+})
+card.forEach(card => {
+    observer.observe(card);
+})
 const mensagem = document.querySelector(".sem-resultados")
 const cards = document.querySelector(".cards")
 const input = document.querySelector(".input")
