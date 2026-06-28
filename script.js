@@ -126,6 +126,7 @@ const observer = new IntersectionObserver((entries) => {
 card.forEach(card => {
     observer.observe(card);
 })
+
 const mensagem = document.querySelector(".sem-resultados")
 const cards = document.querySelector(".cards")
 const input = document.querySelector(".input")

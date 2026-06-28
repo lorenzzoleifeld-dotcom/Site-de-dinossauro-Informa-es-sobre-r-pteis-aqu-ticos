@@ -117,7 +117,7 @@ const dinossauros = [
     altura: "2 metros",
     comprimento: "10 metros",
     imagem: "imgs/anquilossauro.png",
-    descriçao: "Foi um herbívoro que viveu no final do período Cretáceo, a cerca de 68 milhões de anos atrás na América do Norte, pode atingi até 10 metros de comprimento, e é conhecido e famoso pelo seu corpo blindado e por sua poderosa maçã óssea na ponta da cauda.",
+    descriçao: "Foi um herbívoro que viveu no final do período Cretáceo, a cerca de 68 milhões de anos atrás na América do Norte, pode atingir até 10 metros de comprimento, e é conhecido e famoso pelo seu corpo blindado e por sua poderosa maçã óssea na ponta da cauda, também há uma armadura em seu corpo que torna a sua pele extremamente resistente.",
     descoberta: "Foi descoberto em 1906, na Formação Hell Creek, em Montana (EUA), por uma expedição liberada pelo paleontólogo Barnum Brown, seu nome científico é Ankylosaurus Magniventris.",
     paleoecologia: "Era um herbívoro de grande porte (6 a 9 metros), habitou a América do Norte no final do período Cretáceo, vivia em florestas, planícies de inundação, em climas quentes e úmidos e próximos aos rios."
     },
