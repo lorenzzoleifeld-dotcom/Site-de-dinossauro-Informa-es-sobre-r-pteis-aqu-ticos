@@ -66,7 +66,7 @@ const dinossauros = [
     altura: "0.6 metros",
     comprimento: "2 metros",
     imagem: "imgs/velociraptor.png",
-    descriçao: "Foi um dinossauro carnívoro de porte médio a pequeno que viveu no período Cretáceo Superior, ele era razoalmente pequeno e leve, pesando cerca de 20kg, tinha uma garra curva e retratíl, medindo cerca de 6,5cm, e era um predador bem rápido, podendo atingit até 64km/h.",
+    descriçao: "Foi um dinossauro carnívoro de porte médio a pequeno que viveu no período Cretáceo Superior, ele era razoalmente pequeno e leve, pesando cerca de 20kg, tinha uma garra curva e retratíl, medindo cerca de 6.5cm, e era um predador bem rápido, podendo atingit até 64km/h.",
     descoberta: "Foi descoberto no dia 11 de agosto do ano de 1923, pelo explorador Peter Kaisen, durante uma expedição do Museu Americano de História Natural às Falésias Flamejantes, no Deserto de Gobi, na Mongólia, foi descrito oficialmente um ano depois, em 1924.",
     paleoecologia: "Estuda como ele interagia com seu habitat e outros animais, tinha uma visão binocular, e garras que serviam para agarrar e imobilizar presas de pequeno porte, fósseis de seu antebraço revela que era coberto por penas, indicando que eram animais de sangue quente e de alta atividade metabólica."
     },
