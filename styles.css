@@ -493,6 +493,12 @@ label {
     opacity: 1;
     transform: translateY(0);
 }
+.titulo {
+    animation: aparecer 0.4s;
+}
+.subtitulo-especial {
+    animation: aparecer 0.4s;
+}
 @keyframes aparecer {
     0% {
     opacity: 0;
@@ -510,4 +516,24 @@ label {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Oxanium', sans-serif;
+}
+.card {
+    transform: translateY(-20px);
+    opacity: 0;
+}
+.card.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+.pagina {
+    animation: aparecer 0.4s ease;
+}
+.informacoes-html {
+    animation: aparecer 0.4s ;
+}
+.navegaçao {
+    animation: aparecer 0.4s;
+}
+.conteudo-dino {
+    border: 2px solid #4ade80;
 }

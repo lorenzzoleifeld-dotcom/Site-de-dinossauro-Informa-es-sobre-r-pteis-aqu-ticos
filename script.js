@@ -153,8 +153,10 @@ dinossauros.forEach((dino) => {
     card.appendChild(imagem)
     card.appendChild(nome)
     cards.appendChild(card)
+    observer.observe(card)
 })}
 renderizarCards(dinossauros)
+
 function pesquisar() {
     const periodoSelecionado = selectPeriodo.value
     const tipoSelecionado = selectTipo.value
