@@ -553,3 +553,10 @@ label {
     color: #4ade80;
     font-family: 'Oxanium', sans-serif;
 }
+@media (max-width: 1200px) {
+    .badge-dino {
+    font-size: 1rem;
+    margin-left: 110px;
+    margin-top: 270px;
+    }
+}
