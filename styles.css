@@ -370,7 +370,7 @@ a:hover {
 }
 
 .img-dino img {
-    padding: 10px;
+    padding:5px;
     border-radius: 0;
     width: 30rem;
 }
@@ -555,8 +555,11 @@ label {
 }
 @media (max-width: 1200px) {
     .badge-dino {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
-    margin-left: 110px;
-    margin-top: 270px;
     }
 }
