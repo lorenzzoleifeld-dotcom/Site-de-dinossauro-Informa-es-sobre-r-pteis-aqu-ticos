@@ -145,7 +145,26 @@ const dinossauros = [
     descoberta: "Foram descritas em 1821 por William Conybearee e Henry Tomas De La Beche, mas somente dois anos depois, Mary Anning descobriu um fóssil quase completo do plesiossauro, revelendo sua verdadeira aparência, inclusive com Ictiossauro, Plesiossauro e Pterosdauro, seu nome significa 'quase réptil', porque originalmente, não é considerado dinossauro",
     paleoecologia: "Estuda como eles interagiam com o ecossistema dos oceanos do Mesozoico, há cerca de 203 a 66 milhões de anos atrás, diferente de como as pessoas pensam, ele não era um dinossauro, mas sim um réptil marinho altamente especializados que dividiam os mares com Ictiossauros e Mosassauros, tinham pescoços extremamente longos e cabeças proporcionalmente pequenas.",
     badge: "Tipo: Reptíl marinho"
+    },
+    {
+    id: "seymouria",
+    nome: "Seymouria",
+    tipo: "aquatico",
+    periodo: "permiano",
+    genero: "Seymouria",
+    familia: "Seymouriidae",
+    dieta: "Onívoro",
+    ovos: "200",
+    peso: "1,4 kg",
+    altura: "0,2 m",
+    comprimento: "0,6 m",
+    imagem: "",
+    descriçao: "Foi um animal que viveu no período Permiano, na América do Norte e na Europa, tinha uma cabeça triangular, típico dos anfíbios, porém também tinha 4 patas, que serviam para o deixar em pé, mas como um animal pode ser anfíbio e terrestre ao mesmo tempo? Bom, a resposta para isso é que, em sua infância, era uma pequena larva aquática, e quando adulto, ganhava pernas fortes para se manter no chão, se alimentava principalmente de plantas trituradas, e mastigava o alimento com seus dentes afiados.",
+    descoberta: "Seu primeiro fóssil foi achado no ano de 1904, na cidade de Seymour, no Condado de Baylor, no estado do Texas, nos EUA, tem uma caracterísitca bem intrigante, que, quando pequenp, era aquático, e quando crescia, 'desbloqueava' uma nova habilidade, andar em terra firme, também há fósseis encontrados na Europa, porém, principalmente nos EUA.",
+    paleoecologia: "Estuda principalmente sua locomoção e seus sentidos, onde estuda a sua estrutura do crânio e do ouvido, e também seus membros, também estuda seu habitat, reprodução, seu papel na cadeia alimentar, seu ciclo de vida, sua distribuição, e sua adaptação terrestre, tinha cerca de 60 cm de comprimento, sendo praticamente do tamanho de uma palma da mão."
     }
+
+    
 ]
 
 const dinoEncontrado = dinossauros.find(dino => dino.id === id)
