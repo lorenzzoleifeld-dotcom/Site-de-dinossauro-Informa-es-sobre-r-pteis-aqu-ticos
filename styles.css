@@ -563,3 +563,26 @@ label {
     font-size: 1rem;
     }
 }
+select, #nome {
+    gap: 10rem;
+    margin-bottom: 1rem;
+    border: 2px solid #4ade80;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 6px;
+    width: 18rem;
+}
+.geral {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 26%;
+}
+@media (max-width: 1350px) {
+    .geral {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
