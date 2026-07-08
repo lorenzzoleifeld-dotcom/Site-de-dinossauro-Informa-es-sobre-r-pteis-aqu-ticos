@@ -162,6 +162,23 @@ const dinossauros = [
     descriçao: "Foi um animal que viveu no período Permiano, na América do Norte e na Europa, tinha uma cabeça triangular, típico dos anfíbios, porém também tinha 4 patas, que serviam para o deixar em pé, mas como um animal pode ser anfíbio e terrestre ao mesmo tempo? Bom, a resposta para isso é que, em sua infância, era uma pequena larva aquática, e quando adulto, ganhava pernas fortes para se manter no chão, se alimentava principalmente de plantas trituradas, e mastigava o alimento com seus dentes afiados.",
     descoberta: "Seu primeiro fóssil foi achado no ano de 1904, na cidade de Seymour, no Condado de Baylor, no estado do Texas, nos EUA, tem uma caracterísitca bem intrigante, que, quando pequenp, era aquático, e quando crescia, 'desbloqueava' uma nova habilidade, andar em terra firme, também há fósseis encontrados na Europa, porém, principalmente nos EUA.",
     paleoecologia: "Estuda principalmente sua locomoção e seus sentidos, onde estuda a sua estrutura do crânio e do ouvido, e também seus membros, também estuda seu habitat, reprodução, seu papel na cadeia alimentar, seu ciclo de vida, sua distribuição, e sua adaptação terrestre, tinha cerca de 60 cm de comprimento, sendo praticamente do tamanho de uma palma da mão."
+    },
+    {
+    id: "archelon",
+    nome: "Arquelônio",
+    tipo: "aquatico",
+    periodo: "cretáceo superior",
+    genero: "Archelon",
+    familia: "Protostegidae",
+    dieta: "Carnívoro",
+    ovos: "60",
+    peso: "3T",
+    altura: "1 metro",
+    comprimento: "4 metros",
+    imagem: "imgs/arquelônio.jpg",
+    descriçao: "",
+    descoberta: "",
+    paleoecologia: ""
     }
 
     
