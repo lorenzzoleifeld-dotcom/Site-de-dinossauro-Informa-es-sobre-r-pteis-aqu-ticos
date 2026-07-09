@@ -191,6 +191,24 @@ const dinossauros = [
     paleoecologia: "Estuda principalmente seu habitat, que estudava sua estrutura óssea e onde habitou, sua dieta e alimentação, que estuda suas mandíbulas, seus bicos e suas presas, suas adaptações físicas, que estuda sua carapaça, suas nadadeiras e sua cauda, e seu comportamento e sua ecologia, que estuda seu tamanho colossal e seu ciclo de vida. ",
     badge: "Tartaruga Marinha Gigante",
     alt: "Arquelônio"
+    },
+    {
+    id: "gliptodon",
+    nome: "Gliptodonte",
+    tipo: "terrestre",
+    periodo: "Neógeno",
+    genero: "Gliptodon",
+    familia: "Chlamyphoridae",
+    dieta: "Herbívoro",
+    ovos: "0",
+    peso: "2T",
+    altura: "1,5 metros",
+    comprimento: "3 metros",
+    imagem: "imgs/gliptodonte.jpg",
+    descriçao: "Foi um tetrapóde terrestre, podendo medir até 3 metros de comprimento, diferente de outros dinossauros, era mamífero, então, não botava ovos, tinha uma carapaça enorme, podendo medir até 2 metros de comprimento, sendo formada por placas ósseas camadas osteodermes, foi extinto recentemente, há cerca de 10 mil anos atrás, viveu no período Neógeno até o Quaternário, sua carapaça podia servir de abrigo para humanos, e seu nome significa 'dentes esculpidos'.",
+    descoberta: "Há registros de vários fósseis dele na América do Sul, sendo encontrado principalmente na região do Brasil, Uruguai e Argentina, no Brasil, foi encontrado fósseis dele em Alegrete, no Rio Grande do Sul, no Urugiai, nas regiões de Soriano e Carmelo, com fósseis de cerca de 10 mil anos atrás, e na Argentina na região Metropolitana de Buenos Aires, com fósseis de até 21 mil anos atrás.",
+    paleoecologia: "Estuda principalmente características importantes dele, como sua Alimentação e Dentição, que estudava sua dieta e seus dentes, seu Habitat e sua Distribuição, que estudava seu bioma e seu clima, sua Anatomia e Defesa, que estudava sua calda com clava e sua carapaça, e sua Interação com a Megafauna e sua Extinção, que estudava principalmente a sua extinção e suas evidências.",
+    badge: "Tetrapóde Terrestre"
     }
 
     
