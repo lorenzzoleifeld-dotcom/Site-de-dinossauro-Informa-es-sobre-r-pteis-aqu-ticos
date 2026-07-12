@@ -267,6 +267,25 @@ const dinossauros = [
     badge: "Tipo: Dinossauro Terópode",
     alt: "Deinocheirus"
     },
+    {
+    id: "meganeura",
+    nome: "Meganeura",
+    tipo: "aereo",
+    periodo: "Carbonífero",
+    genero: "Meganeura",
+    familia: "Meganeuridae",
+    dieta: "Carnívora",
+    ovos: "200",
+    peso: "0,3 kg",
+    altura: "0,75 metros",
+    comprimento: "0,45 metros",
+    imagem: "imgs/meganeura.webp",
+    descriçao: "Foi um inseto voador gigante, e, somente sua envergadura podia medir até 75cm, viveu no período Carbonífero, há cerca de 300 milhões de anos atrás, na época dos insetos gigantes, possuia espinhos especiais em sua pata, que serviam para imobilizar as suas presas. Era tão grande que podia ter o tamanho de um falcão, comia outros insetos, o que significava que era carnívora, seu nome significa 'nervos grandes', por conta de ter muitos nervos, seu nome científico é Meganeura,  viveu nas regiões da Europa e da América do Norte, e era tão gigante que podia medir do tamanho de um falcão.",
+    decoberta: "Seu primeiro fóssil foi encontrado no século XIX, no ano de 1880, nas minas de carvão em Commentry, na região da atual França. Seus fósseis foram encontrados originalmente pelo palentólogo francês Charles Brongniart, que descreveu e nomeou o inseto voador gigante no ano de 1885. Outros fósseis seus foram encontrados um século depois, no ano de 1979, na região de Derbyshare, no país do Reino Unido, seu fóssil original está no Museu Nacional de História Natural de Paris, na França.",
+    paleoecologia: "Sua paleoecologia estuda principalmente a área de seu Habitat e Clima, que estuda principalmente o ambiente onde vivia e sua Influência de Oxigênio, tendo um tamanho enorme, seu Nicho ecológico e Dieta, que estuda que era um Superpredador voraz e ágil, que outros insetos comiam e sua caça a outras insetos, e sua Competição e sua Extinção, que estuda a sua Ausência de rivais aéreos e como foi extinguida, o que significa que, nos ares, não tinha nenhum rival a seu nível.",
+    badge: "Tipo: Inseto Voador Gigante",
+    alt: "Meganeura"
+    }
 
     
 ]
