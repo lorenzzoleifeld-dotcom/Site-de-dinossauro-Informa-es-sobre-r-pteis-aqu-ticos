@@ -285,8 +285,26 @@ const dinossauros = [
     paleoecologia: "Sua paleoecologia estuda principalmente a área de seu Habitat e Clima, que estuda principalmente o ambiente onde vivia e sua Influência de Oxigênio, tendo um tamanho enorme, seu Nicho ecológico e Dieta, que estuda que era um Superpredador voraz e ágil, que outros insetos ele comia e sua caça a outras insetos, e sua Competição e sua Extinção, que estuda a sua Ausência de rivais aéreos e como foi extinguido, o que significa que, nos ares, não tinha nenhum rival a seu nível.",
     badge: "Tipo: Inseto Voador Gigante",
     alt: "Meganeura"
-    }
-
+    },
+    {
+    id: "helicoprion",
+    nome: "Helicoprion",
+    tipo: "aquatico",
+    periodo: "Permiano",
+    genero: "Helicoprion",
+    familia: "Helicoprionidae",
+    dieta: "Carnívoro",
+    ovos: "2",
+    peso: "350kg",
+    altura: "2 metros",
+    comprimento: "8 metros",
+    imagem: "imgs/helicoprion.jpg",
+    descriçao: "Foi um gênero de peixe que viveu no período Permiano, em todo o mundo, ele é conhecido principalmente pela sua espiral dentária, que podem conter vários dentes, os dentes mais antigos e menores da espiral vão para o centro dela. QUando cientistas acharam os primeiros fósseis dele não acharam onde sua espiral dentária podia ficar, acharam que era na sua cauda, nas suas costas, e até no seu focinho, porém, fósseis mais recentes indicam que essa espiral dentária ficava em sua mandíbula, ela servia para triturar e prender peixes em sua boca, a fechando e triturando eles, seu nome científico é Helicoprion, e como tinha ossos cartilaginosos, seus fósseis se decompõem rapidamente.",
+    descoberta: "Os primeiros fósseis dele foram encontrados no ano de 1899 nos Montes Urais, na região da atual Rússia, pelo paleontólogo Andrzej P. Karpinski, inicialmente, os cientistas acharam que sua espiral dentária era um amonite, e nao sabiam onde ficava, porém, somente um século depois que paleontólogos descobriram que se tratava se uma espiral dentária e que se localizava na parte inferior de sua mandíbula, acredita-se que podia medir entre 10 a 12 metros de comprimento, e que viveu a cerca de 300 milhões de anos atrás.",
+    paleoecologia: "Sua paleoecologia revela um predador ápice dos oceanos do final do período Paleozoico, fazendo parte de uma das famílias mais semelhantes aos tubarões atuais, onde estuda principalmente sua Ecologia e Alimentação, que estudava seu mecanismo de corte e a posição de seus dentes, seu Tamanho e sua Anatomia,que estuda seu tamanho médio, e sua Adaptação e sua Extinção, que estuda principalmente que foi um dos poucos peixes que sobreviveram a extinção em massa do período Permiano-Triássico (uma das maiores extinções em massa que o planeta Terra já presenciou).",
+    badge: "Tipo: Peixe Gigante",
+    alt: "Helicoprion"
+    },
     
 ]
 
