@@ -305,6 +305,23 @@ const dinossauros = [
     badge: "Tipo: Peixe Gigante",
     alt: "Helicoprion"
     },
+    {
+    id: "patagotitan",
+    nome: "Patagotitan",
+    tipo: "terrestre",
+    periodo: "Cretáceo Superior",
+    genero: "Patagotitan",
+    familia: "Titanosauridae",
+    dieta: "Herbívoro",
+    ovos: "30",
+    peso: "60T",
+    altura: "8 metros",
+    comprimento: "35 metros",
+    imagem: "imgs/patagotitan.jpg",
+    descriçao: "Foi um dinossauro gigante, podendo medir até 38 metros de comprimento e sendo até 2,5 vezes mais comprido do que o Tiranossauro Rex, fazia parte da familia dos Titanosauros, e, apesar do seu tamanho, seus ovos tinham tamanhos dos de avestruzes, tendo aproximadante 15 cm de altura, o que significa que os seus filhotes precisavam crescer muito. Usava seu comprido pescoço para pegar plantas no alto de coníferas, viveu na região da atual América do Sul, seu nome científico é Patagotitan Mayorus, apenas seu fêmur podia medir até 2,5 metros de altura, e pesar até 550 kg, e seu nome significava 'Titã da Patagônia'.",
+    descoberta: "Foi descoberto por acaso no século XXI, no ano de 2010, quando um trabalhador rural chamado Aurelio Hernández avistou a ponta de um osso gigante saindo do chão na Patagônia argentina, ele achou na fazenda La Fecha, na província de Chubut, próximo a Trelew, quando tropeçou num fóssil, as escavações em massa aconteceram nos anos de 2013-2015, sob a liderança dos palentólogos José Luis Carballido e Diego Pol, eles escavaram o local e descobriram que não era apenas um fóssil, e sim um real cemitério pré-histórico, contendo mais de 200 fósseis, e foi no ano de 2017 que ele foi anunciado e oficialmente batizado, com o nome de Patagotitan Mayorus.",
+    paleoecologia: "Sua paleoecologia revela que ele viveu em uma Patagônia verdejante, quente e úmida, marcada por grandes planícies de inundação, também estuda seu Clima e Geografia, que estuda seu ambiente, sua atividade geológica e seu clima, sua Flora (alimento), que estuda suas Florestas de Coníferas, suas Plantas primitivas e a Inovação Evolutiva, sua Fauna Coexistente e seus Predadores, que estuda outros herbívoros e a ameaça dos predadores, e sua Dinâmica Populacional e adultos 'Invencíveis', que estuda eles adultos e eles filhotes, que revela que eles adultos e eles filhotes tinham uma grande diferença, e que precisavam crescer muito por conta do tamanho de seus ovos."
+    },
     
 ]
 
