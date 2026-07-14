@@ -278,7 +278,28 @@ const dinossauros = [
     imagem: "imgs/patagotitan.jpg",
     descriçao: "Foi um dinossauro gigante, podendo medir até 38 metros de comprimento e sendo até 2,5 vezes mais comprido do que o Tiranossauro Rex, fazia parte da familia dos Titanosauros, e, apesar do seu tamanho, seus ovos tinham tamanhos dos de avestruzes, tendo aproximadante 15 cm de altura, o que significa que os seus filhotes precisavam crescer muito. Usava seu comprido pescoço para pegar plantas no alto de coníferas, viveu na região da atual América do Sul, seu nome científico é Patagotitan Mayorus, apenas seu fêmur podia medir até 2,5 metros de altura, e pesar até 550 kg, e seu nome significava 'Titã da Patagônia'.",
     descoberta: "Foi descoberto por acaso no século XXI, no ano de 2010, quando um trabalhador rural chamado Aurelio Hernández avistou a ponta de um osso gigante saindo do chão na Patagônia argentina, ele achou na fazenda La Fecha, na província de Chubut, próximo a Trelew, quando tropeçou num fóssil, as escavações em massa aconteceram nos anos de 2013-2015, sob a liderança dos palentólogos José Luis Carballido e Diego Pol, eles escavaram o local e descobriram que não era apenas um fóssil, e sim um real cemitério pré-histórico, contendo mais de 200 fósseis, e foi no ano de 2017 que ele foi anunciado e oficialmente batizado, com o nome de Patagotitan Mayorus.",
-    paleoecologia: "Sua paleoecologia revela que ele viveu em uma Patagônia verdejante, quente e úmida, marcada por grandes planícies de inundação, também estuda seu Clima e Geografia, que estuda seu ambiente, sua atividade geológica e seu clima, sua Flora (alimento), que estuda suas Florestas de Coníferas, suas Plantas primitivas e a Inovação Evolutiva, sua Fauna Coexistente e seus Predadores, que estuda outros herbívoros e a ameaça dos predadores, e sua Dinâmica Populacional e adultos 'Invencíveis', que estuda eles adultos e eles filhotes, que revela que eles adultos e eles filhotes tinham uma grande diferença, e que precisavam crescer muito por conta do tamanho de seus ovos."
+    paleoecologia: "Sua paleoecologia revela que ele viveu em uma Patagônia verdejante, quente e úmida, marcada por grandes planícies de inundação, também estuda seu Clima e Geografia, que estuda seu ambiente, sua atividade geológica e seu clima, sua Flora (alimento), que estuda suas Florestas de Coníferas, suas Plantas primitivas e a Inovação Evolutiva, sua Fauna Coexistente e seus Predadores, que estuda outros herbívoros e a ameaça dos predadores, e sua Dinâmica Populacional e adultos 'Invencíveis', que estuda eles adultos e eles filhotes, que revela que eles adultos e eles filhotes tinham uma grande diferença, e que precisavam crescer muito por conta do tamanho de seus ovos.",
+    badge: "Tipo: Dinossauro",
+    alt: "patagotitan",
+    },
+    {
+    id: "heliophyllum",
+    nome: "Heliophyllum",
+    tipo: "aquatico",
+    periodo: "Devoniano",
+    genero: "Heliophyllum",
+    familia: "Zaphrentidae",
+    dieta: "Carnívoro",
+    ovos: "500.000",
+    peso: "0,050 kg",
+    altura: "0,06 metros",
+    comprimento: "0,06 metros",
+    imagem: "imgs/heliophyllum.jpg",
+    descriçao: "Foi um tipo de coral rugoso que viveu principalmente no período Devoniano, quando o dia na Terra durava aproximadamente 400 a 410 dias. Isso acontece porque a Terra está desacelerando sua velocidade ao longo do tempo, e terra uma hora que parará de girar por completo. Tinha formato de chifre, que servia para se prender no fundo do mar para comer partículas microscópicas com seus vários tentáculos, ele era invertebrado, o que significa que não tinha ossos, como as águas-vivas etc. Tinha uma camada mole sobre seu esqueleto, chamada de pólipo, podia medir 6cm de altura e 6cm de comprimento, porque sua altura e comprimento são iguais, e a correnteza na água afetava a direção onde se posicionava.",
+    descoberta: "Foi descoberto em meados do século XIX, no ano de 1851, sua descrição foi feita pelos renomados paleontólogos franceses Henri Milne-Edwards e Jules Haime, seu nome científico é Heliophyllum Halli, em homenagem a James Hall, sendo considerado o 'pai' da palentologia de Nova York, que forneceu muitos fósseis nos Estados Unidos, Helios significa SOl, e Phyllon significa folha,é como se fosse raios brilhantes do Sol. Seus fósseis foram encontrados no estado de Nova York, nos Estados Unidos, e em Ontário, no Canadá, e foi em 1963 que o palentólogo americano John West Wells usou os fósseis dele para fazer uma grande descoberta, ele percebeu que as microlinhas correspondiam a taxa de crescimento diárias e anuais, e que o período em que viveu tinha 400 dias de duração.",
+    paleoecologia: "Sua paleoecologia revela como esse animal interagia com o seu ecossistema nos oceanos há cerca de 400 milhões de anos atrás, que estuda seu Habitat e Condições Ambientais, que estuda os Mares Rasos e Quentes, as Águas Agitadas a Moderadas, e o Substrato Semirrígido, seu Estilo de Vida e Nicho Ecológico, que estuda seu Bêntico e Séquil estilo de vida, seus Predadores de Suspensão, e a sua Competição por Espaço, suas Adaptações ao Meio Ambiente, que estuda a sua forma de Chifre Antissecagem, e o Mutualismo Opcional, e suas Interações Biológicas e Parasitiso, que estuda os Epibiontes e seu Parasitismo por Vermes, que revela que cientistas já encontraram tubos fósseis de vermes parasitas grudados em seu corpo.",
+    badge: "Tipo: Coral Rugoso",
+    alt: "Heliophyllum"
     },
     
 ]
