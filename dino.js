@@ -343,6 +343,25 @@ const dinossauros = [
     badge: "Tipo: Coral Rugoso",
     alt: "Heliophyllum"
     },
+    {
+    id: "elasmossauro",
+    nome: "Elasmossauro",
+    tipo: "aquatico",
+    periodo: "Cretáceo Superior",
+    genero: "Elasmosaurus",
+    familia: "Elasmosauridae",
+    dieta: "Carnívoro",
+    ovos: "0",
+    peso: "3T",
+    altura: "2 metros",
+    comprimento: "10 metros",
+    imagem: "imgs/elasmossauro.jpg",
+    descriçao: "Foi um reptíl marinho que viveu no período Cretáceo Superior, há cerca de 80 milhões de anos atrás. Tinha um pescoço bastante comprido, podendo medir até 8 metros de comprimento, que podia ter 70 vértebras, e 18 ossos em sua cauda. Ele era principalmente carnívoro, usando seu pescoço para dar bote em cardumes e pegar peixes no fundo do mar, igual os Plesiossauros, dava a luz na água, não botando ovos. Tinha 4 membros, que usava para se locomover suavemente sobre as águas, que ficavam próximo a sua cabeça, e praticamente metade do seu corpo era composto principalmente pelo seu pescço, sendo uns dos animais com pescoços mais compridos que já habitaram a Terra, viveu na região da atual América do Norte, e seu nome científico é Elasmosaurus.",
+    descoberta: "Seu primeiro fóssil foi descoberto no século XIX, no início do ano de 1867 pelo médico Theophilus H. Turner na região de Fort Wallace, no estado do Kansas, no país dos Estados Unidos. Ao reconstruir o esqueleto dele, os paleontólogos colocaram acidentalmente seu crânio da ponta da cauda, acreditando que o seu pescoço comprido era, na verdade, uma cauda sinuosa. Logo depois, o erro bizarro foi corrigido pelo palentólogo Joseph Leidy. O rival da pessoa que descobriu o fóssil usou esse erro que reconstruição para ridiculariza-lo publicamente, essa 'guerra' foi conhecida como 'A Guerra dos Ossos', sendo a luta entre dois cientistas conhecidos como Cope e Othniel Charles Marsh.",
+    paleoecologia: "Sua paleoecologia revela um predador marinho altamente especializado, que habitava mares abertos e rasos do período Cretáceo Superior, com destaque para o Mar Interior Ocidental, e estuda principalmente sua Estratégia de Caça e Dieta, que estuda a sua Camuflagem e Aproximação e a sua Armadilha de Dentes, o Uso de Gastrólitos, que estuda como isso auxiliava na sua digestão e seu Controle de Flutuabilidade, sua Locomoção Eficiente, que estuda como ele usava seus quatro membros para 'voar' na água, e seus Predadores e Concorrentes, que estuda que eram vulneráveis a ataques de Mosassauros e tubarões pre-históricos, e sua Reprodução, que estuda que davam filhotes na água, igual aos Plesiossauros.",
+    badge: "Tipo: Reptíl Marinho",
+    alt: "Elasmossauro"
+    }
     
 ]
 
