@@ -319,7 +319,26 @@ const dinossauros = [
     paleoecologia: "Sua paleoecologia revela um predador marinho altamente especializado, que habitava mares abertos e rasos do período Cretáceo Superior, com destaque para o Mar Interior Ocidental, e estuda principalmente sua Estratégia de Caça e Dieta, que estuda a sua Camuflagem e Aproximação e a sua Armadilha de Dentes, o Uso de Gastrólitos, que estuda como isso auxiliava na sua digestão e seu Controle de Flutuabilidade, sua Locomoção Eficiente, que estuda como ele usava seus quatro membros para 'voar' na água, e seus Predadores e Concorrentes, que estuda que eram vulneráveis a ataques de Mosassauros e tubarões pre-históricos, e sua Reprodução, que estuda que davam filhotes na água, igual aos Plesiossauros.",
     badge: "Tipo: Reptíl Marinho",
     alt: "Elasmossauro"
-    }
+    },
+    {
+    id: "heliobatis",
+    nome: "Heliobátis",
+    tipo: "aquatico",
+    periodo: "Paleógeno",
+    genero: "Heliobatis",
+    familia: "Dasyatidae",
+    dieta: "Carnívoro",
+    ovos: "0",
+    peso: "1 kg",
+    altura: "0,001 metro",
+    comprimento: "0,040",
+    imagem: "imgs/heliobatis.jpg",
+    descriçao: "Foi uma arraia aquática que viveu no período Paleógeno, há cerca de 50 milhões de anos atrás. Nadava e caçava suas presas principalmente em rios e lagos lamacentos, onde caçava e se locomovia suavemente sobre ás águas. Uma curiosidade muito impressioante sua é que, em sua cauda, tinha 3 espinhs especiais, que funcionava como uma 'autodefesa' para principalmente se defender de suas presas, aplicando nelas para se defender. Se alimentava principalmente de pequenos crustáceos, tinha ossos cartilaginosos, o que dificulta a caça de seus óssos, por serem muitos frágeis e se decomporem rápidos. Seu nome científico é Heliobatis Radians, por conta de seu formado parecer uma flor florecendo, e viveu na atual região da América do Norte, no sudoeste dos EUA, no estado de Wyoming.",
+    descoberta: "Sua descoberta aconteceu no final do século XIX, no ano de 1877, conhecida como 'A Guerra dos Ossos', sendo uma batalha entre os palentólogos Cope e Othniel Charles Marsh, que, por conta disso, também foram encontrados e descobertos várias outras espécies de animais pré-históricos e fósseis antigos, onde também foi descoberto o Elasmossauro, sendo um reptíl marinho com pescoço longo, chegando até 7 metros de comprimento. Seus fósseis foram descobertos na formação Green River, no estado de Wyoming, nos EUA. Marsh batizou ele como Heliobatis Radians, que significa 'raia do sol', que vem da linguagem grega. Atualmente, seu nome está situado no Peabody Museum of Natural History na Universidade de Yale, no país dos Estados Unidos.",
+    paleoecologia: "Revela que foi um gênero extinto de arraia, da família Dasyatidae, que viveu no período Eoceno Inferior, que está dentro do período Paleógeno, também revela que ele habitava o antigo Fossil Lake, que é um sistema de lagos subtropicais de água doce que hoje compõe a Formação Green RIver, em Wyoming, nos Estados Unidos. Estuda principalmente suas Características Paleoecológicas, onde estuda fortemente seu Habitat, sua Dieta, seu Tamanho e Defesa, e sua Coexistência, que estuda do que esse animal se alimentava, de qual era seu tamanho, como se defendia, e com quem compartilhava as águas do seu haitat natural, habitava com outra arraia também extinta, que foi descoberta e descrita no ano de 2004. no século XXI (21).",
+    badge: "Tipo: Arraia Marinha",
+    alt: "Heliobátis"
+    },
     
 ]
 const card = document.querySelectorAll(".card-dino")
