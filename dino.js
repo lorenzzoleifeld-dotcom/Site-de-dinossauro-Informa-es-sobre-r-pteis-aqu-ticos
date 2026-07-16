@@ -373,7 +373,7 @@ const dinossauros = [
     ovos: "0",
     peso: "1 kg",
     altura: "0,001 metro",
-    comprimento: "0,040",
+    comprimento: "0,040 metros",
     imagem: "imgs/heliobatis.jpg",
     descriçao: "Foi uma arraia aquática que viveu no período Paleógeno, há cerca de 50 milhões de anos atrás. Nadava e caçava suas presas principalmente em rios e lagos lamacentos, onde caçava e se locomovia suavemente sobre ás águas. Uma curiosidade muito impressioante sua é que, em sua cauda, tinha 3 espinhs especiais, que funcionava como uma 'autodefesa' para principalmente se defender de suas presas, aplicando nelas para se defender. Se alimentava principalmente de pequenos crustáceos, tinha ossos cartilaginosos, o que dificulta a caça de seus óssos, por serem muitos frágeis e se decomporem rápidos. Seu nome científico é Heliobatis Radians, por conta de seu formado parecer uma flor florecendo, e viveu na atual região da América do Norte, no sudoeste dos EUA, no estado de Wyoming.",
     descoberta: "Sua descoberta aconteceu no final do século XIX, no ano de 1877, conhecida como 'A Guerra dos Ossos', sendo uma batalha entre os palentólogos Cope e Othniel Charles Marsh, que, por conta disso, também foram encontrados e descobertos várias outras espécies de animais pré-históricos e fósseis antigos, onde também foi descoberto o Elasmossauro, sendo um reptíl marinho com pescoço longo, chegando até 7 metros de comprimento. Seus fósseis foram descobertos na formação Green River, no estado de Wyoming, nos EUA. Marsh batizou ele como Heliobatis Radians, que significa 'raia do sol', que vem da linguagem grega. Atualmente, seu nome está situado no Peabody Museum of Natural History na Universidade de Yale, no país dos Estados Unidos.",
