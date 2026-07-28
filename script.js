@@ -339,6 +339,25 @@ const dinossauros = [
     badge: "Tipo: Arraia Marinha",
     alt: "Heliobátis"
     },
+    {
+    id: "maiassaura",
+    nome: "Maiassaura",
+    tipo: "Terrestre",
+    periodo: "Cretáceo Superior",
+    genero: "Maiasaura",
+    familia: "Hadrosauridae",
+    dieta: "Herbívoro",
+    ovos: "40",
+    peso: "4T",
+    altura: "3 metros",
+    comprimento: "9 metros",
+    imagem: "imgs/maiasaura.jpg",
+    descriçao: "Foi um dinossauro que viveu no período Cretáceo Superior, há cerca de 80 milhões de anos atrás, ele era herbívoro, o que significa que comia plantas e folhas, seu nome significa 'lagarto boa mãe', o que significa que cuidava muito bem de seus filhotes. Ele fazia ninhos pertos uns dos outros, com 7 metros de distância, o que dificultava bastante a locomoção desse dinossauro, pois tinha 9 metros de comprimento. Viveu na região da atual América do Norte, e fazia seus ninhos em formato de vulcão usando lama, e vários fósseis seus foram encontrados ao redor da América do Norte (principalmente na região de Montana, EUA), seu nome científico é Maiasaura Peeblesorum, e somente seu significado diz que existia mais fêmeas desse dinossauro.",
+    descoberta: "Sua descoberta ocorreu em meados do século XX, na região de Montana, no país dos Estados Unidos, que foi liderada por Laurie Trexler. Seus fósseis foram oficialmente descritos no ano de 1979 pelos palentólogos Jack Horner e Robert Makela. Seu achado revelou ninhos, ovos e filhotes fossilizados, provando pela primeira vez que alguns dinossauros cuidavam de sua prole e viviam em colônias. Seus fósseis foram descobertos na Formação Two Medicine, perto de Chouteau e Bynum, em Montana (EUA), em uma área apelidada de 'Montanha de Ovo', onde achou fósseis adultos, juvenis, embriões e ninhos organizados em círculos com cascas pisoteadas, que mudou a visão de que os dinossauros apenas abandonavam os ovos após a postura.",
+    paleoecologia: "Revela que a Maiasaura viveu em grandes rebanhos sociais, em ambientes de planícies e florestas úmidas, e demonstrou cuidado parental inédito, que estuda principalmente seu Ambiente e Habitat, que estuda sua Localização, o Clima e vegetação de onde vivia, seu Comportamento Social e Reprodução, que estuda que tinha ninhos em colônia, que cuidava de seus filhotes e que vivia em rebanho, e sua Interação com Outros Animais, que estuda principalmente sua Alimentação, os predadores que convivia diariamente, e sua defesa, que estuda que ela/e tinha 4 toneladas e a força de seu grupo serviam como proteção principal contra ataques, o que demonstra uma excelente defesa em bando desses dinossauros.",
+    badge: "Tipo: Dinossauro",
+    alt: "Maiassaura"
+    }
     
 ]
 const card = document.querySelectorAll(".card-dino")
