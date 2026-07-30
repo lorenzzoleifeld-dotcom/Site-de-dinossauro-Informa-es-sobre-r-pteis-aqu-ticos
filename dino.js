@@ -493,6 +493,25 @@ const dinossauros = [
     paleoecologia: "Revela que foi um peixe sarcopterígio do Devoniano Superior (há cerca de 375 milhões de anos atrás) que habitava ecossistemas de águas rasas, margens de rios meandrantes e pântanos tropicais perto do equador antigo, que estuda principalmente seu Ambiente e Clima, que estuda seu Habitat, suas Condições da água e sua Vegetação emergente, suaas Adaptações Morfológicas e Comportamentais, que estuda seu Modo de vida bentônico, seu Respirador duplo e sua Cabeça e pescoço, e seu Papel na Cadeia Alimentar, que estuda principalmente seu Nivel trófico, que revela que era um predador de topo de grande porte para o seu nicho, e sua dieta, que revela que se alimentava de peixes menores e invertebrados que se concentravam nas águas rasas marginais.",
     badge: "Tipo: Peixe",
     alt: "Tiktaalik"
+    },
+    {
+    id: "parassaurolofo",
+    nome: "Parassaurolofo",
+    tipo: "Terrestre",
+    periodo: "Cretáceo Superior",
+    genero: "Parasaurolophus",
+    familia: "Hadrosauridae",
+    dieta: "Herbívoro",
+    ovos: "20",
+    peso: "3T",
+    altura: "4 metros",
+    comprimento: "10 metros",
+    imagem: "imgs/parassaurolofo.jpg",
+    descriçao: "Foi um dinossauro que viveu há cerca de 70 milhões de anos atrás, no período Cretáceo Superior. Ele era herbívoro, o que significa que comia plantas e folhas. Ele é extremamente famoso principalmente por que viveu no mesmo período do que o Tiranossauro Rex, porque viveu na mesma região que ele (América do Norte), e por causa que tinha uma crista em sua cabeça, que, diferente de como as pessoas pensam, não é uma alcunha, e sim, uma crista, que servia para emitir sons para atrair parceiros. Inicialmente, cientistas acreditaram que sua crista servia para, quando estivesse pegando plantas submersas na água, conseguisse respirar por ela, porém, atualmente, sabemos que sua crista não servia para ele respirar, e sim, emitir sons. Seu nome científico é Parasaurolophus, e é um dos dinossauros mais amados e famosos entre as pessoas.",
+    descoberta: "Foi descoberto no início do século XX, no ano de 1920, na região do Canadá, quando uma equipe da Universidade de Toronto encontrou um esqueleto parcial com crânio em Alberta, sendo nomeado em 1922 pelo palentólogo William Parks. Foi encontrado na Formação Dinosaur Park, na cidade de Alberta (EUA), outros fósseis adicionais seus foram achados posteriormente na cidade de Novo México e Utah, reforçando mais ainda o estudo sobre esse dinossauro.",
+    paleoecologia: "Revela ue ele viveu durante o período Cretáceo Superior (há cerca de 75 milhões de anos atrás) em ambientes de planícies aluviais, florestas tropicais e subtropicais úmidas da América do Norte, integrando ecossistemas ricos em vegetação ribeirinha, que estuda principalmente seu Habitat e Clima, que estuda sua região geográfica, seu ambiente predominante, e o nível do mar de onde vivia, sua Dieta e Alimentação, que estuda que eram Herbívoros especializados, os seus bicos e dentes e sua postura alimentar, e sua Ecologia Comportamental e suas Cristas, ue estuda sua comunicação sonora, seu reconhecimento social, e que vivia em manadas, ou seja, em grupos.",
+    badge: "Tipo: Dinossauro",
+    alt: "Parassaurolofo"
     }
     
 ]
