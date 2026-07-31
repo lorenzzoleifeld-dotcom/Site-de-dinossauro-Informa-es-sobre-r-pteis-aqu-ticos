@@ -512,8 +512,26 @@ const dinossauros = [
     paleoecologia: "Revela ue ele viveu durante o período Cretáceo Superior (há cerca de 75 milhões de anos atrás) em ambientes de planícies aluviais, florestas tropicais e subtropicais úmidas da América do Norte, integrando ecossistemas ricos em vegetação ribeirinha, que estuda principalmente seu Habitat e Clima, que estuda sua região geográfica, seu ambiente predominante, e o nível do mar de onde vivia, sua Dieta e Alimentação, que estuda que eram Herbívoros especializados, os seus bicos e dentes e sua postura alimentar, e sua Ecologia Comportamental e suas Cristas, ue estuda sua comunicação sonora, seu reconhecimento social, e que vivia em manadas, ou seja, em grupos.",
     badge: "Tipo: Dinossauro",
     alt: "Parassaurolofo"
+    },
+    {
+    id: "estiracossauro",
+    nome: "Estiracossauro",
+    tipo: "Terrestre",
+    periodo: "Cretáceo Superior",
+    genero: "Styracosaurus",
+    familia: "Ceratopsidae",
+    dieta: "Herbívoro",
+    ovos: "30",
+    peso: "2T",
+    altura: "2 metros",
+    comprimento: "5,5 metros",
+    imagem: "imgs/estiracossauro.jpg",
+    descriçao: "Foi um dinossauro que viveu durante o período Cretáceo Superior na América do Norte há cerca de 75 milhões de anos atrás. Ele é conhecido principalmente por ter uma das golas ósseas mais elaboradas entre os animais pré-históricos, que podiam ter uma variedade de espinhos grandes e pequenos. Tinha chifres em suas bochechas e chifres nasais em sua cabeça, que podiam medar até 60 cm de altura, que eram coloridos, que provavelmente serviam para atrair parceiros. Tinha um depósito de fósseis chamadas jazidas palentológicas, que ajudavam os cientistas a descobrir que andavam em grupo. Tinha um bico forte, que era perfeito para cortar plantas como as palmeiras. Espinhos na sua gola podiam ser mais compridos do que seus chifres nasais, seu nome científico é Styracosaurus, e, por conta de seus vários espinhos, seu nome significa 'lagarto com espinhos'.",
+    descoberta: "Seu primeiro fóssil foi encontrado no início no século XX, no ano de 1913, na província de Alberta, no Canadá. Seu primeiro fóssil foi coletado por C. M. Sternberg e nomeado pelo palentólogo Lawrence Lambe. Seu fóssil foi encontrado na Formação Dinosaurs Park (Parque Provincial dos Dinossauros), em Albera, no Canadá. Seu esqueleto quase completo foi desenterrado em 1915 por Barnum Brown para o Museu Americano de História Natural. Seus fósseis tem mais de 74,4 milhões de anos, o que significa que esse dinossauro viveu durante o período Cretáceo Superior (Campaiano). Ele tinha um grande chifre no focinho, e uma gola óssea no pescoço enfeitado com quatro a seis longos espinhos, tinha cerca de 5,5 metros de comprimento e pesava entre 1,8 e 2,7 toneladas. Acredita-se que viviam em grandes grupos ou manadas, devido a locais com vários fósseis reunidos.",
+    paleoecologia: "Sua paleoecologia revela que ele viveu no final do período cretáceo, há cerca de 75 a 70 milhões de anos atrás, habitando a América do Norte em regiões de várzeas e rios costeiros, que estuda principalmente o Ambient e Vida em Grupo, que estuda o local e clima de onde vivia, seu comportamento social, e com quem convivia, ou seus vizinhos de habitat, e Sua Alimentação e Anatomia, que estuda principalmente sua dieta herbívora, que revels que tinha um bico pontiagudo, que ajudava a cortar plantas baixas, como samambaias e palmeiras, e sua defesa e exibição, que revela que seu grande chifre do nariz e os espinhos no seu pescoço serviam para assustar rivais, atrair parceiros ou se defender.",
+    badge: "Tipo: Dinossauro",
+    alt: "Estiracossauro"
     }
-    
 ]
 
 const dinoEncontrado = dinossauros.find(dino => dino.id === id)
