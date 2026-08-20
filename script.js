@@ -1,3 +1,4 @@
+console.log("MEU JS ESTÁ FUNCIONANDO")
 const parametros = new URLSearchParams(window.location.search)
 const id = parametros.get("id")
 const dinossauros = [
@@ -476,8 +477,10 @@ const dinossauros = [
     nome: "Estiracossauro",
     tipo: "Terrestre",
     periodo: "Cretáceo Superior",
+    classificacao: {
     genero: "Styracosaurus",
     familia: "Ceratopsidae",
+    },
     dieta: "Herbívoro",
     ovos: "30",
     peso: "2T",
@@ -492,6 +495,7 @@ const dinossauros = [
     }
     
 ]
+
 const card = document.querySelectorAll(".card-dino")
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -561,6 +565,7 @@ function pesquisar() {
     }
     
 }
+
 input.addEventListener("input", () => {
     pesquisar()
 })
@@ -570,3 +575,4 @@ input.addEventListener("input", () => {
 botao.addEventListener("click", () => {
     pesquisar()
 })
+
