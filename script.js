@@ -1,4 +1,3 @@
-console.log("MEU JS ESTÁ FUNCIONANDO")
 const parametros = new URLSearchParams(window.location.search)
 const id = parametros.get("id")
 const dinossauros = [
@@ -570,9 +569,10 @@ input.addEventListener("input", () => {
     pesquisar()
 })
 
-
-
-botao.addEventListener("click", () => {
-    pesquisar()
-})
-
+function verificarInformacao(dinossauro, informacao) {
+    if(Object.hasOwn(dinossauro, informacao)) {
+        console.log("Essa informação existe!")
+    } else {
+        console.log("Essa informação não existe...")
+    }
+}
